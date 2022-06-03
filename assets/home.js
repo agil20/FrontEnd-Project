@@ -7,10 +7,14 @@ eng.classList.remove("none")
 });
 currency.addEventListener("mouseenter", function(){
     valyuta.classList.remove("none")
+    valyuta.classList.add("trans")
+
 });
 
 language.addEventListener("mouseleave", function(){
     eng.classList.add("none")
+    eng.classList.add("trans")
+
 });
 currency.addEventListener("mouseleave", function(){
     valyuta.classList.add("none")

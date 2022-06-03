@@ -114,8 +114,40 @@ height: 50px;
 }
 .logo-message{
     font-family: News Gothic Light;
-    font-size: 11px;
+    font-size: 10px;
     opacity: 0.5;
+}
+.trans{
+    transition-duration: 5s;
+}
+.modal-message{
+   color: #233a95;
+    font-size: 12px;
+    margin-right: 60px;
 
+
+}
+.modal-your-location{
+    font-size: 10px;
+    margin-right: 90px;
+    opacity: 0.5;
+} 
+
+.my-modal{
+border: 0.5px solid silver;
+    width: 175px;
+    height: 60px;
+position: relative;
+}
+.my-icon-down{
+position: absolute;
+left: 140px;
+bottom: 20px;
+font-size: small;
+opacity: 0.8;
+
+}
+.my-search{
+background-color: rgb(208, 203, 203);
 
 }

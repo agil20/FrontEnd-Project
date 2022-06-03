@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: News Gothic Light;
+    src: url("./fonts/News\ Gothic\ Light.otf");
+}
+
+.pandemiya
+{
+    width: 100%;
+    height: 40px;
+    background-color: #233a95;
+    text-align: center;
+    padding-top: 5px;
+    font-family: News Gothic Light;
+    font-size: small;
+}
+.pandemiyamessage{
+color: aliceblue;
+}
+.my-nav{
+    border-bottom: 0.2px solid silver;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: News Gothic Light;
+    font-size: small;
+    text-align: center;
+    opacity: 0.8;
+    padding-top: 5px;
+    }
+.nav-left .my-ul li{
+list-style: none;
+margin-left: 10px;
+}
+.nav-right{
+margin-right: 120px;
+}
+.nav-right .my-ul li{
+list-style: none;
+padding-left: 9px;
+padding-right: 5px;
+border-left: 0.5px solid silver;
+}
+.my-ul li a {
+  color: black;
+  opacity: 0.8;
+    text-decoration: none;
+ }
+.my-ul li a:hover {
+color: rgb(0, 153, 255);
+ }
+ #num:hover{
+text-decoration: underline;
+ }
+ 

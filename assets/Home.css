@@ -136,7 +136,7 @@ height: 50px;
 .my-modal{
 border: 0.5px solid silver;
     width: 175px;
-    height: 60px;
+    height: 55px;
 position: relative;
 }
 .my-icon-down{
@@ -148,6 +148,29 @@ opacity: 0.8;
 
 }
 .my-search{
-background-color: rgb(208, 203, 203);
+background-color: #f3f4f7;
+position: relative;
+height: 50px;
+bottom: 10px;
+}
+.seach-icon{
+font-size: 20px;
+position: absolute;
+left: 415px;
+}
+.person-coonect-icon {
+ border:0.5px solid ;
+ background-color: #fff;
+ border-radius: 50px;
+ color:#c3c5ca ;
+ height: 35px;
+ margin: 4px;
+ width: 35px;
+ padding: auto;
 
+} 
+.person-coonect-icon i{
+margin-left: 9px;
+color: black;
+margin-top: 9px;
 }

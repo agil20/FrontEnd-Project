@@ -161,16 +161,30 @@ left: 415px;
 .person-coonect-icon {
  border:0.5px solid ;
  background-color: #fff;
- border-radius: 50px;
+ border-radius: 1000px;
  color:#c3c5ca ;
  height: 35px;
- margin: 4px;
- width: 35px;
+ width: 10px;
  padding: auto;
 
 } 
 .person-coonect-icon i{
-margin-left: 9px;
+margin-left: 2px;
 color: black;
 margin-top: 9px;
+
 }
+.basket-icon{
+    border:0.5px ;
+    background-color: #fff1ee;;
+    border-radius: 1000px;
+    color:#cfb5cf ;
+    height: 35px;
+    width: 10px;
+    padding: auto;
+}
+.basket-icon i{
+    color: red;
+    margin-top: 9px;
+    
+    }

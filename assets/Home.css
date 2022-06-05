@@ -7,10 +7,7 @@ box-sizing: border-box;
     font-family: News Gothic Light;
     src: url("./fonts/News\ Gothic\ Light.otf");
 }
-body{
-height: 2000px;
 
-}
 .pandemiya
 {
     width: 100%;
@@ -157,7 +154,7 @@ cursor: pointer;
 
 }
 .delivery-location{
-    position: sticky;
+
 position: relative;
 z-index: 3;
     width: 500px;
@@ -301,4 +298,7 @@ left: 43px;
 bottom: 17px;
 font-size: medium;
 }
+/* .filter{
+filter: brightness(90%);
 
+} */

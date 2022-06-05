@@ -150,13 +150,41 @@ border: 0.5px solid silver;
 position: relative;
 
 }
+
 .delivery-location{
-width: 400px;
+position: relative;
+    width: 400px;
 height: 400px;
-background-color: #233a95;
-top: 200px;
+top: -5px;
+left: 150px;
+z-index: 99;
+padding-top: 20px;
+padding-left: 20px;
+font-family: News Gothic Light;
 
+}
+.delivery-icon{
 
+position: absolute;
+left: 380px;
+top: 10px;
+font-size: large;
+
+}
+.location-message{
+
+    font-family: News Gothic Light;
+    font-size: small;
+ color: black;
+ opacity: 0.8;   
+ 
+  
+    }
+.my-location-search{
+width: 300px;
+height: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
 
 }
 

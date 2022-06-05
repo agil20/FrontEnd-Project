@@ -31,9 +31,6 @@ delivery_close_icon.addEventListener("click",function(e){
     delivery_location.classList.add("none");
  
 })
-delivery_location.ondblclick =()=>{
-alert("ugcd")
-
-
-}
-
+// delivery_location.ondblclick =()=>{
+// alert("ugcd")
+// }

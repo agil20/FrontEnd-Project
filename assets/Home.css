@@ -61,6 +61,7 @@ text-decoration: underline;
  #language{
 position: relative;
 
+
  }
  .languages{
 position: absolute;
@@ -72,10 +73,19 @@ left:-5px ;
 background-color: white;
 border: 0.5px solid silver;
 margin-top: 14px;
+
+
  }
  .languages ul li{
 list-style: none;
-margin-top: 15px;   
+margin-top: 15px; 
+
+}
+ .languages ul{
+background-color: #233a95;
+position: relative;
+z-index: 100;  
+
 }
 #currency{
 position: relative;
@@ -138,7 +148,19 @@ border: 0.5px solid silver;
     width: 175px;
     height: 55px;
 position: relative;
+
 }
+.delivery-location{
+width: 400px;
+height: 400px;
+background-color: #233a95;
+top: 200px;
+
+
+
+}
+
+
 .my-icon-down{
 position: absolute;
 left: 140px;
@@ -186,5 +208,15 @@ margin-top: 9px;
 .basket-icon i{
     color: red;
     margin-top: 9px;
-    
+    position: relative;
     }
+.basket-count{
+color: #c3c5ca;
+background-color: red;
+border-radius: 1000px;
+position: absolute;
+left: 43px;
+bottom: 17px;
+font-size: medium;
+}
+

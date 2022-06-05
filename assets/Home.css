@@ -361,8 +361,8 @@ list-style: none;
 
 }
 .menu ul li:hover{
-background-color: #233a95
-text-transform: uppercase;;
+background-color: red;
+
 
 }
 .menu ul li a{

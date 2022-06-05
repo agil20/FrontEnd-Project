@@ -1,3 +1,4 @@
+let body=document.getElementsByTagName("body")
 let root=document.getElementById("root")
 let currency=document.getElementById("currency");
 let language=document.getElementById("language");
@@ -11,7 +12,6 @@ eng.classList.remove("none")
 });
 currency.addEventListener("mouseenter", function(){
     valyuta.classList.remove("none")
-    valyuta.classList.add("trans")
 
 });
 
@@ -25,12 +25,9 @@ currency.addEventListener("mouseleave", function(){
 });
 my_modal.addEventListener("click",function(e){
     delivery_location.classList.remove("none")
-   
 })
 delivery_close_icon.addEventListener("click",function(e){
     delivery_location.classList.add("none");
  
 })
-// delivery_location.ondblclick =()=>{
-// alert("ugcd")
-// }
+

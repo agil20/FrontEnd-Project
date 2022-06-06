@@ -508,6 +508,11 @@ float: right;
 position: relative;
 
 }
+.my-frits:hover .frits-ul {
+opacity:1 ;
+visibility: visible;
+
+}
 .frits-ul{
 background-color: white;
 position: absolute;
@@ -517,12 +522,18 @@ left: 225px;
 padding: 25px;
 bottom: -405px;
 z-index: 20;
+opacity: 0;
+visibility: hidden;
 }
 .frits-ul li{
     list-style: none;
     margin-bottom: 8px;
     cursor: pointer;
   color: black;
-  
+   cursor: pointer;
+
+}
+.frits-ul li:hover{
+ color: #233a95;
 
 }

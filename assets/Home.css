@@ -504,3 +504,25 @@ padding: 25px;
 .left-chevron{
 float: right;
 } 
+.my-frits {
+position: relative;
+
+}
+.frits-ul{
+background-color: white;
+position: absolute;
+width: 250px;
+height: 450px;
+left: 225px;
+padding: 25px;
+bottom: -405px;
+z-index: 20;
+}
+.frits-ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+  color: black;
+  
+
+}

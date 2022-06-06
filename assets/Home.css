@@ -535,5 +535,31 @@ visibility: hidden;
 }
 .frits-ul li:hover{
  color: #233a95;
+}
+.my-bevarages{
+position: relative;
+
+} 
+.my-bevarages:hover .div-Bevarages{
+visibility: visible;
+opacity: 1;
+
+} 
+.div-Bevarages{
+position: absolute ;
+width: 250px;
+height: 450px;
+left: 225px;
+padding: 25px;
+bottom: -300px;
+z-index: 20;
+background-color: white;
+visibility: hidden;
+opacity: 0;
+
+}
+.div-Bevarages li{
+margin-top: 10px;
+list-style: none;
 
 }

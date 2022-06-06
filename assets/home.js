@@ -65,8 +65,8 @@ $(".images-slider").animate({
     })
     }
 })
+
+$(document).on("click","")
+
 })
 
-// right.addEventListener("click",function(e){
-//   alert("lfhu")
-// })

@@ -7,6 +7,7 @@ let valyuta=document.getElementById("valyuta")
 let my_modal=document.getElementById("my-modals")
 let delivery_location=document.getElementById("my-delivery")
 let delivery_close_icon=document.getElementById("delivery-close-icon")
+let right=document.getElementById("right-icon")
 language.addEventListener("mouseenter", function(){
 eng.classList.remove("none")
 });
@@ -34,11 +35,10 @@ $(document).ready(function(){
 $(document).on("click","right",function(){
 alert("ovidh")
 
+})
 
 })
 
-
-
-})
-
-
+// right.addEventListener("click",function(e){
+//   alert("lfhu")
+// })

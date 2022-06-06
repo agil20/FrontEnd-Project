@@ -355,17 +355,17 @@ font-size: small;
 
 }
 .my-coteg-li{
-    
+
 margin-left: 9px;
 list-style: none;
 padding: 15px;
 border-radius: 20px;
 font-family: News Gothic Light;
+position: relative;
 
 }
 .my-coteg-li:hover{
 background-color:  #c7e1ec
-
 
 
 }
@@ -373,7 +373,30 @@ background-color:  #c7e1ec
 color: black;
 text-decoration: none;
 }
-.home{
-position: relative;
+
+
+.homes{
+position: absolute;
+top: 60px;
+width: 170px;
+right: -100px;
+z-index: 20;
+opacity: 0;
+visibility: hidden;
+background-color: white;
+}
+.homes ul {
+padding: 10px;
+padding-left: 20px;
+padding-bottom: 30px;
+}
+.homes ul li{
+list-style: none;
+margin-top: 10px;
+
+}
+.home-li:hover .homes {
+opacity: 1;
+visibility: visible;
 
 }

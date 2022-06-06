@@ -477,3 +477,7 @@ top: 180px;
 font-size: 20px;
 background-color: #c3c5ca;
 }
+.categ-li{
+list-style: none;
+
+}

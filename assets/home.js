@@ -67,7 +67,17 @@ $(".images-slider").animate({
     })
     }
 })
-})
+}) 
+let clickall=0
 cotegotiya.addEventListener("click",function(e){
-    coteg_ul.classList.remove("none")
+    clickall++;
+    if(clickall%2==1){
+        coteg_ul.classList.remove("none")
+    }
+    else{
+     
+  
+      coteg_ul.classList.add("none")
+    }
+ 
 })

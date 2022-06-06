@@ -479,5 +479,28 @@ background-color: #c3c5ca;
 }
 .categ-li{
 list-style: none;
+margin-bottom: 15px;
+cursor: pointer;
 
 }
+.categ-li:hover{
+
+color: #233a95;
+}
+.coteg-first-ul{
+border-bottom: 1px solid silver;
+
+}
+.coteg-ul{
+    position: absolute;
+width: 250px;
+height: 450px;
+background-color:white;
+z-index: 100;
+left: 20px;
+bottom: -450px;
+padding: 25px;
+}
+.left-chevron{
+float: right;
+} 

@@ -438,10 +438,40 @@ margin-bottom: 20px;
 .carusel{
 width: 100%;
 height: 50vh;
-background-color: #233a95;
+position: relative;
 }
 .carusel .images-slider {
 width: 200%;
 height: 100%;
 border: 1px solid gold;
+display: flex;
+
+
+
+}
+.images-selider .item{
+height: 100%;
+width: 50%;
+display: flex;
+}
+.item img{
+width: 100%;
+}
+.right{
+position: absolute;
+top: 200px;
+left: 1470px;
+font-size: 20px;
+background-color: #c3c5ca;
+border: 1px ;
+border-radius: 100px;
+cursor: pointer;
+}
+.left{
+    cursor: pointer;
+position: absolute;
+top: 180px;
+
+font-size: 20px;
+background-color: #c3c5ca;
 }

@@ -30,4 +30,15 @@ delivery_close_icon.addEventListener("click",function(e){
     delivery_location.classList.add("none");
  
 })
+$(document).ready(function(){
+$(document).on("click","right",function(){
+alert("ovidh")
+
+
+})
+
+
+
+})
+
 

@@ -586,3 +586,18 @@ flex-direction: row;
 width: 100%;
 height: 100%;
 }
+.time{
+border: 3px solid red;
+width: 700px;
+height: 500px;
+padding: 20px;
+}
+.Product-market img
+{   
+    margin-left: 30px;
+    margin-top: 45px;
+    width: 75%;
+    height: 45%;
+
+
+}

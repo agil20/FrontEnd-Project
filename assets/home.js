@@ -34,8 +34,9 @@ delivery_close_icon.addEventListener("click",function(e){
 $(document).ready(function(){
     let count=0;
 $(document).on("click",".right",function(){
-    count++;
-    if(count<2){
+
+    if(count<1){
+        count++;
         $(".images-slider").animate({
             "margin-left":`-${count*100}%`
             
@@ -44,15 +45,26 @@ $(document).on("click",".right",function(){
     else{
 count=0
 $(".images-slider").animate({
-    "margin-left":`-${count*100}%`
-    
+    "margin-left":`-${count*100}%`   
     })
-
     }
-
-
 })
+$(document).on("click",".left",function(){
 
+    if(count>0){
+        count--;
+        $(".images-slider").animate({
+            "margin-left":`-${count*100}%`
+            
+            })
+    }
+    else{
+count=1
+$(".images-slider").animate({
+    "margin-left":`-${count*100}%`   
+    })
+    }
+})
 })
 
 // right.addEventListener("click",function(e){

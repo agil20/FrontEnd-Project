@@ -589,7 +589,7 @@ height: 100%;
 .time{
 border: 3px solid red;
 width: 700px;
-height: 500px;
+height: 580px;
 padding: 20px;
 }
 .Product-market img
@@ -601,3 +601,11 @@ padding: 20px;
 
 
 }
+.progress{
+display: flex;
+height: 1rem;
+overflow: hidden;
+line-height: 0;
+font-size: .75rem;
+background-color: #e9ecef;
+border-radius: 0.25rem;}

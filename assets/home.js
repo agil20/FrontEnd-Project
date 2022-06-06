@@ -7,7 +7,7 @@ let valyuta=document.getElementById("valyuta")
 let my_modal=document.getElementById("my-modals")
 let delivery_location=document.getElementById("my-delivery")
 let delivery_close_icon=document.getElementById("delivery-close-icon")
-let right=document.getElementById("right-icon")
+
 language.addEventListener("mouseenter", function(){
 eng.classList.remove("none")
 });
@@ -32,8 +32,24 @@ delivery_close_icon.addEventListener("click",function(e){
  
 })
 $(document).ready(function(){
-$(document).on("click","right",function(){
-alert("ovidh")
+    let count=0;
+$(document).on("click",".right",function(){
+    count++;
+    if(count<2){
+        $(".images-slider").animate({
+            "margin-left":`-${count*100}%`
+            
+            })
+    }
+    else{
+count=0
+$(".images-slider").animate({
+    "margin-left":`-${count*100}%`
+    
+    })
+
+    }
+
 
 })
 

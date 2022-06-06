@@ -400,3 +400,39 @@ opacity: 1;
 visibility: visible;
 
 }
+.shop{
+position: relative;
+}
+.shop:hover .my-shop-ul{
+    opacity: 1;
+    visibility: visible;
+}
+.my-shop-ul {
+    margin-top: 30px;
+position: absolute;
+width: 1500px;
+display: flex;
+justify-content: space-between;
+height: 400px;
+left: -650px;
+padding-left: 250px;
+padding-right: 250px;
+padding-top: 50px;
+padding-bottom: 50px;
+z-index: 10;
+background-color: white;
+opacity: 0;
+visibility: hidden;
+}
+.shop-ul{
+margin-right: 50px;
+
+}
+.shop-ul li {
+margin-top: 10px;
+list-style: none;
+}
+.title-li{
+margin-bottom: 20px;
+    
+}

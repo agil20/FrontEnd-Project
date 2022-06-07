@@ -384,7 +384,7 @@ right: -100px;
 z-index: 20;
 opacity: 0;
 visibility: hidden;
-background-color: white;
+background-color: white ;
 }
 .homes ul {
 padding: 10px;
@@ -589,7 +589,7 @@ height: 100%;
 .time{
 border: 3px solid red;
 width: 700px;
-height: 580px;
+height: 610px;
 padding: 20px;
 }
 .Product-market img
@@ -609,3 +609,16 @@ line-height: 0;
 font-size: .75rem;
 background-color: #e9ecef;
 border-radius: 0.25rem;}
+.times{
+background-color: red;
+color: white;
+font-size: large;
+padding: 10px;
+width: 90px;
+margin-left: 30px;
+}
+.timer{
+display: flex;
+
+
+}

@@ -7,10 +7,7 @@ box-sizing: border-box;
     font-family: News Gothic Light;
     src: url("./fonts/News\ Gothic\ Light.otf");
 }
- body{
-height: 10000px;
 
-}
 
 .pandemiya
 {
@@ -956,5 +953,34 @@ list-style: none;
   list-style: none;
 color: gray;
 font-size: small;
+
+}
+.connection{
+width: 75%;
+margin: auto;
+height: 150px;
+padding-left: 50px;
+padding-top: 50px;
+padding-right: 30px;
+padding-right: 50px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.phone{
+width: 30%;
+height: 100%;
+}
+.social{
+display: flex;
+}
+.link{
+width: 120px;
+height: 45px;
+margin-left: 20px;
+}
+.fa-brands {
+ font-size: 36px;
+margin-left: 15px;
 
 }

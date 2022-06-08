@@ -763,3 +763,24 @@ height:100% ;
 background-color: #ED174A;
 border-radius: 8px;
 }
+#section-five{
+width: 77%;
+height: 300px;
+border: 1px solid red;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+.items{
+    width:90%;
+    margin:0px auto;
+    margin-top: 100px;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 0px solid #fff;
+  }

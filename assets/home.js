@@ -111,4 +111,11 @@ var timing = setInterval(
 
   },
   1000
-);
+);$(document).ready(function(){
+     
+    $('.items').slick({
+ infinite: true,
+ slidesToShow: 3,
+ slidesToScroll: 3
+});
+         });

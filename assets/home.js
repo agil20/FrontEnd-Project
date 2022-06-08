@@ -113,9 +113,11 @@ var timing = setInterval(
   1000
 );$(document).ready(function(){
      
-    $('.items').slick({
+$('.items').slick({
+ arrow:false,
  infinite: true,
- slidesToShow: 3,
- slidesToScroll: 3
+ slidesToShow: 5,
+
+ slidesToScroll: 1
 });
          });

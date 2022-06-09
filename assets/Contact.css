@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    background-color: #F3F3F6;
+}
 @font-face {
   font-family: News Gothic Light;
   src: url("./fonts/News\ Gothic\ Light.otf");
@@ -42,24 +45,23 @@
 }
 #section-send {
   width: 75%;
-  height: 700px;
-  background-color: aqua;
+  height: 750px;
   margin: 30px auto;
   text-align: center;
   padding: 50px 30px 30px 30px;
+  background-color: white;
 }
 .send-us {
   width: 75%;
-  height: 30%;
-  background-color: blue;
+  height: 25%;
   margin: auto;
-  
+  font-family: News Gothic Light;
+  border-bottom: 1px solid silver;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.send-message{
-
-width: 75%;
-height:60% ;
-background-color: blueviolet;
-margin: 40px auto;
-
+.send-message {
+  width: 75%;
+  height: 60%;
+  margin: 40px auto;
 }

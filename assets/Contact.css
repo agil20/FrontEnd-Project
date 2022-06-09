@@ -31,7 +31,7 @@
   justify-content: space-between;
 }
 .my-contact {
-    text-align: center;
+  text-align: center;
   width: 30%;
   height: 100%;
   background-color: #f3f4f7;
@@ -39,5 +39,27 @@
   font-family: News Gothic Light;
   border-radius: 5px;
   border: none;
+}
+#section-send {
+  width: 75%;
+  height: 700px;
+  background-color: aqua;
+  margin: 30px auto;
+  text-align: center;
+  padding: 50px 30px 30px 30px;
+}
+.send-us {
+  width: 75%;
+  height: 30%;
+  background-color: blue;
+  margin: auto;
   
+}
+.send-message{
+
+width: 75%;
+height:60% ;
+background-color: blueviolet;
+margin: 40px auto;
+
 }

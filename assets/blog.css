@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#section-blog {
+  width: 75%;
+
+  height: 2650px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-left {
+  width: 79%;
+  height: 2650px;
+}
+.blog-right {
+  width: 20%;
+  height: 1000px;
+  background-color: burlywood;
+}
+.blog-left-img {
+  width: 100%;
+  height: 600px;
+}
+.blog-icons {
+  font-size: 13px;
+}
+.more {
+  margin: 20px 400px;
+}
+.more-ul {
+  display: flex;
+}
+.more-ul li {
+  padding-right: 20px;
+  list-style: none;
+  padding-left: 20px;
+  font-size: large;
+}
+.more-ul li a {
+  text-decoration: none;
+  color: black;
+}
+.more-li {
+  border-radius: 1000px;
+  background: #2bbef9;
+}
+.search-blog
+{
+    position: relative;
+}
+.right-icon {
+position: absolute;
+right: 20px;
+font-size: small;
+}

@@ -887,6 +887,10 @@ border: none;
 
 
 }
+.email:focus{
+outline: none;
+
+}
 .sumbit{
 position: absolute;
 width: 18%;
@@ -922,10 +926,6 @@ margin-right: auto;
 margin-top: 20px;
 padding: 20px 20px;
 font-size: small;
-
-
-
-
 }
 .my-div{
 border-right: 1px solid gray;
@@ -979,7 +979,7 @@ width: 120px;
 height: 45px;
 margin-left: 20px;
 }
-.fa-brands {
+.socials {
  font-size: 36px;
 margin-left: 15px;
 

@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 #section-login-register{
 width: 75%;
-height: 700px;
+height: 400px;
 margin: 30px auto;
 display: flex;
 justify-content: space-between;
@@ -20,3 +20,14 @@ height: 80%;
 width: 48%;
 height: 80%;
 }
+.my-form-check{
+margin-right: 430px;
+}
+.my-login{
+    background-color: #233a95;
+    width: 140px;    
+    }
+    .my-login-form{
+background-color: #f3f4f7
+
+    }

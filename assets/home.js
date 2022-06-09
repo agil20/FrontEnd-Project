@@ -102,7 +102,7 @@ var timing = setInterval(
     var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000); //conversion miliseconds on seconds
     if (seconds < 10) seconds = "0" + seconds;
    
-
+        
     document.getElementById("days").innerHTML = days;
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;

@@ -366,9 +366,9 @@ text-decoration: none;
 
 .homes{
 position: absolute;
-top: 60px;
+top: 50px;
 width: 170px;
-right: -100px;
+right: -90px;
 z-index: 20;
 opacity: 0;
 visibility: hidden;

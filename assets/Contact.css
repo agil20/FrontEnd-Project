@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: News Gothic Light;
+  src: url("./fonts/News\ Gothic\ Light.otf");
+}
+
+.title-contact {
+  width: 75%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  font-family: News Gothic Light;
+}
+.contact-messaje {
+  height: 100px;
+  width: 75%;
+  margin: 20px auto;
+  font-family: News Gothic Light;
+  font-size: small;
+  text-align: center;
+}
+.elemntor-container {
+  width: 75%;
+  height: 220px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.my-contact {
+    text-align: center;
+  width: 30%;
+  height: 100%;
+  background-color: #f3f4f7;
+  padding: 60px 20px 20px 20px;
+  font-family: News Gothic Light;
+  border-radius: 5px;
+  border: none;
+  
+}

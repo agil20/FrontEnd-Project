@@ -9,6 +9,7 @@ let delivery_location=document.getElementById("my-delivery")
 let delivery_close_icon=document.getElementById("delivery-close-icon")
 let cotegotiya=document.getElementById("cotegotiya")
 let coteg_ul=document.getElementById("coteg-uls")
+let basketicon=document.getElementById("basketicon")
 
 language.addEventListener("mouseenter", function(){
 eng.classList.remove("none")
@@ -121,3 +122,7 @@ $('.items').slick({
  slidesToScroll: 1
 });
          });
+
+        basketicon.addEventListener("click",function(e){
+                    delivery_location.classList.remove("none")
+        })
